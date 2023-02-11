@@ -1,8 +1,6 @@
-const Text = ({children,textTransform,color}) => {
+const Text = ({ children, textTransform, color }) => {
   return (
-    <div style={{textTransform:(textTransform), color:(color)}}>
-        {children}
-    </div>
+    <div style={{ textTransform: textTransform, color: color }}>{children}</div>
   );
 };
-export default Text
+export default Text;
